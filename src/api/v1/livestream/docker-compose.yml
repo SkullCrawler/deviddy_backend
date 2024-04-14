@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+  rtmp:
+    build: ./rtmp
+    ports:
+      - "1935:1935"
+      - "4444:8080"
+    container_name: deviddy_stream_server
+    volumes:
+      - ./data:/tmp/hls
+
+  auth:
+    build: ./auth
+    container_name: deviddy_auth_server
