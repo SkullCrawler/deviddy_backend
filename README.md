@@ -1,6 +1,6 @@
 # Deviddy Node Server
 
-Welcome to the Deviddy Node Server repository! This server powers app.deviddy.com, providing a range of APIs for various functionalities.
+Welcome to the Deviddy Node Server repository! This server powers api.deviddy.com, providing a range of APIs for various functionalities.
 
 ## List of APIs
 
